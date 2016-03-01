@@ -18,9 +18,9 @@
 // Test cases
 
 //// 1: B is cheaper
-//let d : Int = 251
-//let e : Int = 10
-//let w : Int = 60
+let d : Int = 251
+let e : Int = 10
+let w : Int = 60
 
 //// 2: Same price
 //let d : Int = 162
@@ -38,19 +38,14 @@
 //let w : Int = 66
 
 // 5: Cost divisible by 10 (formatting) and negative value for minutes
-let d : Int = 114
-let e : Int = -30
-let w : Int = 66
+//let d : Int = 114
+//let e : Int = -30
+//let w : Int = 66
 
 // Input variables
 let daytime : Int = d
 let evening : Int = e
 let weekend : Int = w
-
-// Print values
-print("daytime = \(d)")
-print("evening = \(e)")
-print("weekend = \(w)")
 
 /*
  * Calculate plan A cost in cents
